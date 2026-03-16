@@ -1,0 +1,45 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+body {font-family:'Poppins',sans-serif;scroll-behavior:smooth;color:#111;transition:0.3s;}
+a {text-decoration:none;color:inherit;}
+header{position:fixed;width:100%;background:rgba(0,0,0,0.6);z-index:100;display:flex;justify-content:center;align-items:center;}
+.navbar a{margin:0 1rem;color:#fff;font-weight:600;}
+#theme-toggle{margin-left:1rem;background:none;border:none;color:#fff;font-size:1.2rem;cursor:pointer;}
+
+/* Parallax */
+#home{position:relative;height:100vh;overflow:hidden;}
+.parallax-layer{position:absolute;width:100%;height:100%;background-size:cover;background-position:center;}
+.layer-back{background-image:url('assets/bg-recife-back.jpg');z-index:1;}
+.layer-mid{background-image:url('assets/bg-recife-mid.png');z-index:2;}
+.layer-front{background-image:url('assets/bg-recife-front.png');z-index:3;}
+.home-content{position:relative;z-index:4;text-align:center;color:#fff;padding-top:30vh;}
+.home-content h1{font-size:3rem;margin-bottom:1rem;}
+.home-content p{font-size:1.4rem;margin-bottom:2rem;}
+.btn{padding:.8rem 2rem;background:#0066cc;color:#fff;border-radius:50px;}
+
+/* Seções */
+section{padding:4rem 1rem;}
+.container{max-width:1000px;margin:auto;}
+
+/* Skills */
+.skillgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1.5rem;text-align:center;}
+.skillgrid i{font-size:2.5rem;color:#0066cc;}
+.skillgrid p{margin-top:.5rem;font-weight:600;}
+
+/* Projetos / Blog */
+.projgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;}
+.card{background:#f5f5f5;padding:1rem;border-radius:8px;text-align:center;transition:0.3s;}
+.card:hover{transform:translateY(-5px);box-shadow:0 5px 15px rgba(0,0,0,0.2);}
+
+/* Contato */
+#contact{text-align:center;}
+#contact-form{display:flex;flex-direction:column;gap:1rem;margin:auto;max-width:500px;}
+#contact-form input,#contact-form textarea{padding:.8rem;border-radius:5px;border:1px solid #ccc;width:100%;}
+#contact-form button{padding:.8rem;background:#0066cc;color:#fff;border:none;border-radius:5px;cursor:pointer;}
+
+/* Footer */
+footer{text-align:center;padding:1rem;background:#111;color:#fff;}
+
+/* Dark Mode */
+body.dark{background:#111;color:#eee;}
+body.dark .card{background:#222;color:#eee;}
+body.dark .navbar a,#theme-toggle{color:#eee;}
