@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfólio Avançado — Seu Nome</title>
+
+<link rel="icon" href="favicon.png">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/yourkitcode.js" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<nav class="navbar">
+
+<a href="#home">Home</a>
+<a href="#about">Sobre</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projetos</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contato</a>
+
+<button id="theme-toggle">🌓</button>
+
+</nav>
+</header>
+
+<!-- HOME PARALLAX -->
+<section id="home">
+
+<div class="parallax-layer layer-back"></div>
+<div class="parallax-layer layer-mid"></div>
+<div class="parallax-layer layer-front"></div>
+
+<div class="home-content">
+
+<h1>Olá, eu sou <span>Seu Nome</span></h1>
+
+<p>
+Analista de Dados · Desenvolvedor Web · Dev No-Code
+</p>
+
+<a href="#about" class="btn">
+Saiba Mais
+</a>
+
+</div>
+
+</section>
+
+<!-- SOBRE -->
+<section id="about">
+
+<div class="container">
+
+<h2>Sobre Mim</h2>
+
+<p>
+Sou analista de dados e desenvolvedor web com foco em soluções no-code.
+Experiência em Python, SQL, Power BI, Tableau, Web Development
+e plataformas no-code como Bubble, Webflow, Zapier e Make.
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+
+<div class="container">
+
+<h2>Skills</h2>
+
+<div class="skillgrid">
+
+<div>
+<i class="fas fa-database"></i>
+<p>Data Analytics</p>
+</div>
+
+<div>
+<i class="fas fa-code"></i>
+<p>Web Dev</p>
+</div>
+
+<div>
+<i class="fas fa-cogs"></i>
+<p>No-Code</p>
+</div>
+
+<div>
+<i class="fas fa-chart-line"></i>
+<p>Visualização</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJETOS -->
+<section id="projects">
+
+<div class="container">
+
+<h2>Projetos</h2>
+
+<div class="projgrid">
+
+<div class="card">
+
+<h3>Dashboard Financeiro</h3>
+
+<canvas id="chart1"></canvas>
+
+<a href="https://github.com/seuusuario/dashboard-financeiro" target="_blank">
+Ver no GitHub
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Site Institucional</h3>
+
+<p>
+HTML, CSS, JS, parallax e responsivo.
+</p>
+
+<a href="https://github.com/seuusuario/site-institucional" target="_blank">
+Ver no GitHub
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Automação No-Code</h3>
+
+<p>
+Workflow com Zapier e Google Sheets.
+</p>
+
+<a href="https://github.com/seuusuario/automacao-nocode" target="_blank">
+Ver no GitHub
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+
+<div class="container">
+
+<h2>Blog</h2>
+
+<div class="projgrid">
+
+<div class="card">
+<h3>Artigo 1</h3>
+<p>Como criar dashboards interativos.</p>
+</div>
+
+<div class="card">
+<h3>Artigo 2</h3>
+<p>Ferramentas no-code para automatizar tarefas.</p>
+</div>
+
+<div class="card">
+<h3>Artigo 3</h3>
+<p>Boas práticas de desenvolvimento web.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTATO -->
+<section id="contact">
+
+<div class="container">
+
+<h2>Contato</h2>
+
+<form id="contact-form">
+
+<input
+type="text"
+name="name"
+placeholder="Seu nome"
+required
+>
+
+<input
+type="email"
+name="email"
+placeholder="Seu email"
+required
+>
+
+<textarea
+name="message"
+placeholder="Mensagem"
+required
+></textarea>
+
+<button type="submit">
+Enviar
+</button>
+
+</form>
+
+<p>Email: </p>
+
+<p>
+
+GitHub:
+
+<a
+href="https://github.com/NayaraDM"
+target="_blank"
+>
+
+github.com/seuusuario
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+<p>
+© 2026 — Seu Nome
+</p>
+
+</footer>
+
+<!-- JS -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
